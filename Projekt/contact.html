@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <div class="head">
+      <button id="buttonDark" onclick="darkMode()">Darkmode</button>
+      <button id="buttonLight" onclick="lightMode()">LightMode</button>
+      <h1>Detierra Stockholm</h1>
+      <h2>
+        <p>Naturliga CBD krämer</p>
+      </h2>
+    </div>
+    <div class="logga">
+      <img src="./images/logo.png" alt="" />
+    </div>
+
+    <nav>
+      <li><a href="index.html">Hem</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+    </nav>
+
+    <div class="rubrikruta">
+      <h3>Kontakta gärna oss!</h3>
+    </div>
+
+    <div class="BigBox">
+      <div class="Form">
+        <form id="action_page">
+          <label for="fname">Fullständigt namn:</label>
+          <input type="text" placeholder="Ditt fullständiga namn..." />
+
+          <label for="lname">Mejladress:</label>
+          <input type="text" placeholder="Din mejladress..." />
+
+          <label for="Kategori">Kategori:</label>
+          <select id="Kategori" name="Kategori">
+            <option value="Köp av produkt/tjänst">Köp av produkt/tjänst</option>
+            <option value="Frågor om företaget">Frågor om företaget</option>
+            <option value="Reklamation">Reklamation</option>
+            <option value="Övrigt">Övrigt</option>
+          </select>
+
+          <label for="subject">Ämne:</label>
+          <textarea placeholder="Skriv här.." style="height: 150px"></textarea>
+
+          <button id="button" type="button">Submit</button>
+        </form>
+      </div>
+
+      <div class="Detierra">
+        <h2>Detierra huvudkontor / Besökadress</h2>
+
+        <img src="/Projekt/images/IMG-20221227-WA0000.jpg" alt="Kontoret" />
+        <p>BESÖKADRESS: Sibeliusgången 8, 16473 KISTA.</p>
+        <p>
+          Om du vill komma i kontakt med vårt huvudkontor kan du alltid nå oss
+          på 0700XXXXXX.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2022 DetierraSthlm.com</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

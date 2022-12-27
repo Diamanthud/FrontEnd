@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/DetierraBackground.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background: rgb(0, 61, 0);
+  color: white;
+
+  padding: 15px;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+}
+
+.logga img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 205px;
+}
+
+.rubrikruta {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 0px 200px 10px 200px;
+  width: 50%;
+  border-radius: 10px;
+  padding: 15px;
+  background: rgba(248, 250, 248, 0.6);
+}
+.Info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+.Info img {
+  width: 1000px;
+  height: 500px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+nav {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  background: darkgreen;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 20px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+nav li a {
+  color: white;
+  position: relative;
+}
+
+nav li a:hover {
+  background: rgb(0, 61, 0);
+  cursor: pointer;
+  transform: scale(1);
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  width: 270px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.card-image {
+  height: 350px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+  background-image: url(images/PumpSolo.jpg);
+}
+.car-2 {
+  background-image: url(images/BurkSolo.jpg);
+}
+.car-3 {
+  background-image: url(images/BurkPump.jpg);
+}
+
+button {
+  margin: 5px;
+  background-color: darkgreen;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+footer {
+  position: fixed;
+
+  bottom: 0;
+  width: 100%;
+  opacity: 0.6;
+}
+
+footer p {
+  font-size: 25px;
+  background-color: grey;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 5px solid #ccc;
+  border-radius: 4px;
+  box-sizing: content-box;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+label {
+  position: absolute;
+  background-color: white;
+  opacity: 0.7;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+  border-radius: 10px 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.BigBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  gap: 20;
+  justify-content: space-evenly;
+}
+
+.Form {
+  margin-top: 50px;
+}
+
+.Detierra {
+  border: solid white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 800px;
+  padding: 10px;
+}
+
+.Detierra h2 {
+  background: rgba(248, 250, 248, 0.6);
+  font-size: 30px;
+  border-radius: 15px;
+  width: 600px;
+}
+
+.Detierra img {
+  width: 250px;
+  margin: 10px;
+}
+
+.Detierra p {
+  background-color: white;
+  padding: 5px;
+}
+.Recensioner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.Recensioner h2 {
+  align-items: center;
+  background: rgba(248, 250, 248, 0.6);
+  text-decoration: underline;
+  border-radius: 15px;
+  font-size: 35px;
+}
+
+.Recensioner p {
+  background: rgba(248, 250, 248, 0.6);
+  padding: 5px;
+  color: black;
+  font-size: 25px;
+  font-family: "Lucida Sans";
+  font-style: italic;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+
+#button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #45a049;
+}
+
+.dark-mode {
+  background-image: url(/Projekt/images/IMG_0852.JPG);
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .head,
+body .card {
+  background-color: rgba(0, 0, 0, 0.626);
+  color: white;
+}
+
+.dark-mode input,
+label {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .rubrikruta {
+  background: rgba(0, 0, 0, 0.626);
+  color: white;
+}
+
+.dark-mode .rubrikruta h3 {
+  color: white;
+}
+
+.dark-mode nav {
+  background: rgba(0, 0, 0, 0.626);
+  color: white;
+}
+
+.dark-mode select {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode textarea {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .Recensioner p {
+  background: black;
+  color: white;
+}
+
+.dark-mode .Recensioner h2 {
+  background: black;
+  color: white;
+}
+
+.dark-mode .Detierra {
+  border: solid black;
+}
+
+.dark-mode .Detierra h2 {
+  background: black;
+  color: white;
+}
+
+.dark-mode .Detierra p {
+  background: black;
+}
+
+.dark-mode #buttonDark {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.light-mode .card {
+  background-color: white;
+  color: black;
+}
+
+.light-mode,
+select,
+textarea {
+  background-color: white;
+  color: black;
+}
+
+#buttonDark {
+  background: white;
+  color: black;
+}
+
+#buttonDark:hover {
+  color: white;
+  background-color: black;
+}
+
+.light-mode #buttonLight {
+  background-color: white;
+  color: black;
+}
+
+#buttonLight:hover {
+  color: black;
+  background-color: white;
+}
+
+#buttonLight {
+  background-color: grey;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .Info img {
+    width: 75%;
+  }
+}
+
+@media (max-width: 800px) {
+  .logga img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 25px;
+  }
+}
